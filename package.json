@@ -1,0 +1,20 @@
+{
+  "name": "data-processor",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.3",
+    "@types/bun": "latest",
+    "@types/google-libphonenumber": "^7.4.30",
+    "bun": "^1.1.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "test": {
+    "test": "bun test"
+  },
+  "dependencies": {
+    "google-libphonenumber": "^3.2.34"
+  }
+}
